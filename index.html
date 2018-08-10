@@ -63,7 +63,7 @@
                     <span class="heading-primary--main">Outdoors</span>
                     <span class="heading-primary--sub">is where life happens</span>
                 </h1>
-                <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+                <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
             </div>
         </header>
 
@@ -147,7 +147,7 @@
             </section>
 
             <!-- tours section -->
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Most popular tours
@@ -182,7 +182,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$297</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$497</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -248,7 +248,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$897</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>                      
@@ -312,7 +312,7 @@
             </section>
 
             <!-- booking section -->
-            <section class="section-book">
+            <section class="section-book" id="section-book">
                 <div class="row">
                     <div class="book">
                         <div class="book__form">
@@ -381,6 +381,25 @@
                 </div>
             </div>
         </footer>
+
+        <!-- pop up modal -->
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-medium">start booking now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam reprehenderit voluptatem optio nisi dolor nam, quibusdam nostrum cumque veritatis ipsam sint magni, iste porro obcaecati, vel magnam saepe corrupti voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum odio vel qui, minima fuga aperiam reprehenderit repellendus quisquam. Vel sequi reiciendis assumenda repudiandae culpa ipsa asperiores quidem ducimus eligendi ipsam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quam corporis harum facilis, perspiciatis cumque beatae voluptatem! Quas, expedita mollitia! Veniam suscipit asperiores, doloremque sapiente fuga illum facere modi delectus?
+                    </p>
+                    <a href="#section-book" class="btn btn--green">Book now</a>
+                </div>
+            </div>
+        </div>
         
         <!-- this section is just for reference
         <section class="grid-test">
